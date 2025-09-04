@@ -1,0 +1,43 @@
+# virtualenv
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.sqlite3
+db.sqlite3
+
+# env files
+.env
+.env.*.local
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# pycharm
+.idea/
+
+# distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# test / coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# node / frontend (if any)
+node_modules/
